@@ -25,8 +25,8 @@ class ChartData(APIView):
 
     def get(self, request, format=None):
         count = User.objects.all().count()
-        labels = []
-        defaultitems = [100,5,4,6]
+        labels = ["User","Hello","dasas","Saad","daadasa"]
+        defaultitems = [count,100,5,4,6]
         data = { 'labels': labels,   
                 'defaultdata': defaultitems,}
         return Response(data)   
