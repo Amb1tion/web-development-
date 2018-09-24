@@ -5,17 +5,15 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth import get_user_model
 from fetching import *
+from django.core.serializers.json import DjangoJSONEncoder
 import json
 
 
 
-
 def index(request, *args, **kwargs):
-    var = query_with_fetchall()  # for y axis
-    var_label = query_with_fetchall1()  # for x axis
-    data = {'labels1':var_label,'abc':var}
-    a = json.dumps(data)
-    return render(request, 'personal/charts.html', {"my_data":a})
+    defaultdata= query_with_fetchall() # for y axis
+    labels = query_with_fetchall1() # for x axis
+    return render(request, 'personal/charts.html', {"my_data":defaultdata,"my_data2":labels})
 def contact(request):
     return render(request, 'personal/basic.html',{'content':['If you would like to contact me, please email me.','hskinsley@gmail.com']})
 

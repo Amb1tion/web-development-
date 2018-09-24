@@ -16,10 +16,8 @@
         <entry file="file://$PROJECT_DIR$/personal/static/personal/js/ch.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#47#0" expanded="false" />
-              </folding>
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,9 +35,21 @@
       <file leaf-file-name="charts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personal/templates/personal/charts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding>
+                <marker date="1537790511499" expanded="true" signature="517:2421" ph="{&quot;type&quot;: 'line'...}" />
+                <marker date="1537790511499" expanded="true" signature="595:1902" ph="{&quot;labels&quot;: datafromdjango.labels...}" />
+                <marker date="1537790511499" expanded="true" signature="696:1872" ph="[...]" />
+                <marker date="1537790511499" expanded="true" signature="697:1871" ph="{&quot;label&quot;: '## of Votes'...}" />
+                <marker date="1537790511499" expanded="true" signature="867:1308" ph="[...]" />
+                <marker date="1537790511499" expanded="true" signature="1359:1785" ph="[...]" />
+                <marker date="1537790511499" expanded="true" signature="1941:2395" ph="{...}" />
+                <marker date="1537790511499" expanded="true" signature="2093:2365" ph="{...}" />
+                <marker date="1537790511499" expanded="true" signature="2138:2331" ph="[...]" />
+                <marker date="1537790511499" expanded="true" signature="2139:2330" ph="{...}" />
+                <marker date="1537790511499" expanded="true" signature="2188:2292" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +57,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" column="117" lean-forward="true" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -69,11 +79,11 @@
       <file leaf-file-name="fetching.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fetching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
-                <marker date="1537783259234" expanded="true" signature="376:410" ph="SELECT Salar... tblreceptionist" />
-                <marker date="1537783259234" expanded="true" signature="905:948" ph="SELECT Recep... tblreceptionist" />
+                <marker date="1537790511580" expanded="true" signature="375:409" ph="SELECT Salar... tblreceptionist" />
+                <marker date="1537790511580" expanded="true" signature="862:905" ph="SELECT Recep... tblreceptionist" />
               </folding>
             </state>
           </provider>
@@ -98,9 +108,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/personal/templates/personal/header.html" />
-        <option value="$PROJECT_DIR$/personal/static/personal/js/ch.js" />
+        <option value="$PROJECT_DIR$/personal/urls.py" />
+        <option value="$PROJECT_DIR$/fetching.py" />
         <option value="$PROJECT_DIR$/personal/views.py" />
         <option value="$PROJECT_DIR$/personal/templates/personal/charts.html" />
+        <option value="$PROJECT_DIR$/personal/static/personal/js/ch.js" />
       </list>
     </option>
   </component>
@@ -440,6 +452,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -485,9 +498,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22014537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22014537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -517,9 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -535,16 +546,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1537790511499" expanded="true" signature="517:2421" ph="{&quot;type&quot;: 'line'...}" />
+            <marker date="1537790511499" expanded="true" signature="595:1902" ph="{&quot;labels&quot;: datafromdjango.labels...}" />
+            <marker date="1537790511499" expanded="true" signature="696:1872" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="697:1871" ph="{&quot;label&quot;: '## of Votes'...}" />
+            <marker date="1537790511499" expanded="true" signature="867:1308" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="1359:1785" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="1941:2395" ph="{...}" />
+            <marker date="1537790511499" expanded="true" signature="2093:2365" ph="{...}" />
+            <marker date="1537790511499" expanded="true" signature="2138:2331" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="2139:2330" ph="{...}" />
+            <marker date="1537790511499" expanded="true" signature="2188:2292" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personal/static/personal/js/ch.js">
+    <entry file="file://$PROJECT_DIR$/personal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="7" selection-end-column="80" />
           <folding>
-            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding>
+            <marker date="1537790511580" expanded="true" signature="375:409" ph="SELECT Salar... tblreceptionist" />
+            <marker date="1537790511580" expanded="true" signature="862:905" ph="SELECT Recep... tblreceptionist" />
           </folding>
         </state>
       </provider>
@@ -557,6 +591,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/personal/static/personal/js/ch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -565,21 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fetching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1537783259234" expanded="true" signature="376:410" ph="SELECT Salar... tblreceptionist" />
-            <marker date="1537783259234" expanded="true" signature="905:948" ph="SELECT Recep... tblreceptionist" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personal/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="17" column="117" lean-forward="true" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -588,9 +619,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal/templates/personal/charts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <marker date="1537790511499" expanded="true" signature="517:2421" ph="{&quot;type&quot;: 'line'...}" />
+            <marker date="1537790511499" expanded="true" signature="595:1902" ph="{&quot;labels&quot;: datafromdjango.labels...}" />
+            <marker date="1537790511499" expanded="true" signature="696:1872" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="697:1871" ph="{&quot;label&quot;: '## of Votes'...}" />
+            <marker date="1537790511499" expanded="true" signature="867:1308" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="1359:1785" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="1941:2395" ph="{...}" />
+            <marker date="1537790511499" expanded="true" signature="2093:2365" ph="{...}" />
+            <marker date="1537790511499" expanded="true" signature="2138:2331" ph="[...]" />
+            <marker date="1537790511499" expanded="true" signature="2139:2330" ph="{...}" />
+            <marker date="1537790511499" expanded="true" signature="2188:2292" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
