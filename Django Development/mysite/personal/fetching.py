@@ -7,7 +7,7 @@ def query_with_fetchall():
 
 	try:
 #		print("Connection Established")
-		db_config = {'password': '', 'host': 'localhost', 'user': 'root', 'database': 'db1'}
+		db_config = {'password': '1998', 'host': 'localhost', 'user': 'root', 'database': 'db1'}
 		conn = MySQLConnection(**db_config)
 		cursor = conn.cursor()
 		cursor.execute("SELECT Salary FROM tblreceptionist")
