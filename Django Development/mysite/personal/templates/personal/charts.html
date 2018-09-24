@@ -9,6 +9,7 @@
 {#            var endpoint = 'api/chart/data/'#}
 
             datafromdjango = {{my_data}}
+            var things = datafromdjango
 {#            $.ajax({#}
 {#                method: "GET",#}
 {#                url : endpoint,#}
@@ -26,8 +27,8 @@
                 data: {
                     labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
                     datasets: [{
-                        label: datafromdjango.labels,
-                        data: datafromdjango.default,
+                        label: things.labels,
+                        data: things.default,
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',
                             'rgba(54, 162, 235, 0.2)',
