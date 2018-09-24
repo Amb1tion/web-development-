@@ -5,8 +5,9 @@ var endpoint = 'api/chart/data/'
 var defaultdata = []
 labels = []
 $.ajax({
-	method: "GET",
-	url : endpoint,
+	// method: "GET",
+	// url : endpoint,
+	data = {{my_data}}
 	success: function(data){
 		labels = data.labels
 		defaultdata = data.defaultdata
