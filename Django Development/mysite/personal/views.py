@@ -3,9 +3,12 @@ from django.views.generic import View
 from django.http import JsonResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.contrib.auth import get_user_model 
+from django.contrib.auth import get_user_model
+from fetching import * 
 
-User = get_user_model()
+var = query_with_fetchall()     #for y axis
+var_label = query_with_fetchall1()   #for x axis
+
 
 def index(request, *args, **kwargs):
     return render(request, 'personal/charts.html', {})
@@ -24,9 +27,8 @@ class ChartData(APIView):
     permission_classes = []
 
     def get(self, request, format=None):
-        count = User.objects.all().count()
-        labels = ["User","Hello","dasas","Saad","daadasa"]
-        defaultitems = [count,100,5,4,6]
+        labels = var_label
+        defaultitems = var
         data = { 'labels': labels,   
                 'defaultdata': defaultitems,}
         return Response(data)   

@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'personal',
     'bullshit',
+    'fetching',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
