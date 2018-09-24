@@ -12,7 +12,7 @@ from fetching import *
 def index(request, *args, **kwargs):
     var = query_with_fetchall()  # for y axis
     var_label = query_with_fetchall1()  # for x axis
-    data = {'labels':var_label,'defaultdata':var}
+    data = {'labels':var_label,'default':var}
     return render(request, 'personal/charts.html', {"my_data":data})
 def contact(request):
     return render(request, 'personal/basic.html',{'content':['If you would like to contact me, please email me.','hskinsley@gmail.com']})
