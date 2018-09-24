@@ -7,7 +7,7 @@ labels = []
 $.ajax({
 	// method: "GET",
 	// url : endpoint,
-	data = {{my_data}}
+	// data = {{my_data}}
 	success: function(data){
 		labels = data.labels
 		defaultdata = data.defaultdata
