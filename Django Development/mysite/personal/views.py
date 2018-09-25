@@ -1,13 +1,13 @@
 from django.shortcuts import render
 from django.views.generic import View
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth import get_user_model
-from fetching import * 
+from fetching import *
+import json
 
-var = query_with_fetchall()     #for y axis
-var_label = query_with_fetchall1()   #for x axis
+
 
 
 def index(request, *args, **kwargs):
@@ -16,19 +16,8 @@ def contact(request):
     return render(request, 'personal/basic.html',{'content':['If you would like to contact me, please email me.','hskinsley@gmail.com']})
 
 
-def get_data(request, *args, **kwargs):
-    data = {'sales':100,
-            'customers': 10,}
+def ajax(request):
+    defaultdata= query_with_fetchall() # for y axis
+    labels = query_with_fetchall1() # for x axis
+    data = {'defaultdata': defaultdata, 'labels': labels}
     return JsonResponse(data)
-
-class ChartData(APIView):
-
-    authentication_classes = []
-    permission_classes = []
-
-    def get(self, request, format=None):
-        labels = var_label
-        defaultitems = var
-        data = { 'labels': labels,   
-                'defaultdata': defaultitems,}
-        return Response(data)   

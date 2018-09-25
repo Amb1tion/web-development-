@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^', include('personal.urls')),
     url(r'^bullshit/', include('bullshit.urls')),
     url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^app/$',include('personal.urls'))
 ]
